@@ -20,7 +20,7 @@ with open('total_stops_mapping.pkl', 'rb') as file:
     total_stops_mapping = pickle.load(file)
 
 # Load the trained Linear Regression model
-with open('linear_regression_model.pkl', 'rb') as file:
+with open('xgb_model.json', 'rb') as file:
     model = pickle.load(file)
 
 # Helper functions
